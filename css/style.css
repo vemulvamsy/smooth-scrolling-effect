@@ -1,0 +1,86 @@
+@charset "utf-8";
+
+.height {
+	background: url(../img/bg.png) repeat scroll 0 0 transparent;
+	float: left;
+	width: 100%;
+}
+
+p {
+	color: #222;
+	font-size: 3em;
+	font-weight: bold;
+	margin: 240px 0 33%;
+	text-align: center;
+	text-shadow: 1px 1px #666;
+	text-transform: capitalize;
+}
+
+.smooth-style {
+	background-color: #000;
+	color: #fff;
+	display: none;
+	float: left;
+	font-size: 2em;
+	font-weight: bold;
+  filter: alpha(opacity=0.5);
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0.5)";
+  opacity: 0.5;
+  padding: 2% 0;
+	position: fixed;
+	text-align: center;
+	width: 100%;
+}
+
+.smooth-style.slide-option {
+	top: 0;
+}
+
+.smooth-style.slideOut-option {
+	bottom: 0;
+	right: 0;
+	width: 33%;
+}
+
+.smooth-style.slideHide-option {
+	bottom: 0;
+	left: 0;
+	width: 33%;
+}
+
+.smooth-style.fade-option {
+	left: 0;
+	top: 150px;
+	width: 33%;
+}
+
+.smooth-style.fadeUp-option {
+	right: 0;
+	top: 150px;
+	width: 33%;
+}
+
+.smooth-style.fadeHide-option {
+	left: 0;
+	top: 250px;
+	width: 33%;
+}
+
+.smooth-style.showHide-option {
+	right: 0;
+	top: 250px;
+	width: 33%;
+}
+
+.smooth-style.showUp-option {
+	left: 0;
+	top: 350px;
+	width: 33%;
+}
+
+.smooth-style.showOut-option {
+	right: 0;
+	top: 350px;
+	width: 33%;
+}
+
